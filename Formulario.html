@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <script src="Fomulario.js"></script>
+
+    <title>Nubank</title>
+
+ </head>
+ <body>
+
+<div class="container">
+
+    <img class="logoDoBanco" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6_s_I1lgLw80X_dNKwXHCK4eTJ5r5GVIw&s">
+    
+    <section class="informacoesLogin">
+        <h1>Faça login aqui</h1>
+        <label for="date">Usuario:</label>
+        <input type="text" id="Usuario" name="Usuario" placeholder="Usuario"><br><br>
+            
+        <label for="date">Email:</label>
+        <input type="email" id="Email" name="Email" placeholder="Email"><br><br>
+            
+        <label for="date"> Senha:</label>
+        <input type="password" id="Senha" name="Senha"placeholder="Senha"><br><br>
+            
+        <label for="date"> CPF:</label>
+        <input type="number" id="CPF" name="CPF"placeholder="CPF"><br><br>
+            
+        <label for="date">Data de nascimento:</label>
+        <input type="date" id="DataDeNascimento" name="DataDeNascimento" value="DataDeNascimento"><br><br>
+
+    </section>
+
+    <section class="informacoesSexo">
+        <h2>Qual seu gênero?</h2>
+            <input type="radio" value="Masculino" name="GENERO">
+            <label for="Masculino">Masculino</label>
+            
+            <input type="radio" value="Feminino" name="GENERO">
+            <label for="Feminino">Feminino</label>
+
+            <input type="radio" value="Outro" name="GENERO">
+            <label for="Outro">Outros</label>
+    </section>
+
+    <section class="informacoesCadastro">
+        <h2>Confirmar cadastro?</h2>
+            <input type="radio" name="CADASTRO">
+            <label for="Confirmar">Confirmar</label>
+
+            <input type="radio" name="CADASTRO">
+            <label for="Confirmar">Negar</label>
+            
+        </section>
+    <div class="Botao">
+        <button onclick="Login()">Entrar</button>
+    </div>
+    
+</div>
+
+
+</body>
+</html>

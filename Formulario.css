@@ -1,0 +1,75 @@
+body{
+    background-image: url(https://ekoala.com.br/wp-content/uploads/2021/05/2328116-scaled.jpg);
+    background-size: 100%;
+   
+}
+h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.informacoesLogin{
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: #550077;
+} 
+
+.informacoesSexo{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: #550077;
+}
+
+.logoDoBanco{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.informacoesCadastro{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: #550077;
+}
+
+
+.container{
+    background-color: #ffffff;
+    width: 500px;
+    max-width: 30%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #3b0041;
+    margin-top: 5%;
+    
+}
+
+.Usuario{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.Email{
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.Botao{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5%;
+}
